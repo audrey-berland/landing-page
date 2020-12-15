@@ -1,0 +1,60 @@
+.banner-top{
+	background-image: linear-gradient(-47deg,rgba(0,0,0,0.8) 10%,rgba(0,0,0,0.4)50%,rgba(0,0,0,0.8) 90%), url(../../images/background.jpg);
+	color:white;
+	background-size: cover;
+	background-position: center;
+	opacity: 0.9;
+	padding-bottom: 50px;
+
+}
+
+.banner-top h1{
+	 font-size: 50px;
+	 margin-top: 0px;
+
+}
+
+.banner-top h2{
+	 font-size: 30px;
+	 font-weight: lighter;
+	 opacity:0.8;
+	 margin-bottom: 50px;
+}
+
+.banner-top h1, .banner-top h2{
+	text-align: left;
+}
+
+.banner{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	box-shadow: 0px 10px 30px rgba(20,20,20,0.7);
+	flex-basis: 250px;
+	flex-grow: 1;
+	margin-bottom: 0px;
+	background-color: rgba(250,250,250,0.5);
+	text-transform: uppercase;
+	border: 1px solid black;
+}
+
+
+.banner h3{
+	text-align: center;
+	flex-grow: 1;
+	font-size: 15px;
+	color:rgb(2, 58, 67);
+	padding: 10px;
+	margin: 10px 10px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.banner-bottom{
+	background-color: white;
+	background-size: cover;
+	box-shadow: 0px 10px 30px rgba(20,20,20,0.5);
+	margin: 20px 20px;
+	padding: 0px;
+
+}

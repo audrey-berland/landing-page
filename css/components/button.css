@@ -1,0 +1,13 @@
+.btn-white{
+	background-color: black;
+	padding: 20px 30px;
+	border-radius: 20px;
+	color:#FFFFFF;
+	font-weight: bold;
+	font-size:15px;
+	margin: 0px;
+}
+
+#button{
+	text-align: left;
+}

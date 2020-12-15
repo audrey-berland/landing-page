@@ -1,0 +1,56 @@
+.container{
+	margin-right:0px;
+    margin-left:0px;
+    color:color:rgb(68, 68, 68);
+}
+
+.container-top{
+	margin-right: 0px;
+    margin-left: 150px;
+}
+
+.container-end{
+	margin-right: 0px;
+    margin-left: 0px;
+}
+
+#section a{
+	color:rgb(25, 97, 108);
+	transition:color:0.3s ease;
+}
+#section a:hover{
+	text-decoration: underline;
+}
+.container-top a:hover{
+	color:#01404a;
+
+}
+
+
+@media screen (max-width: 900px) {	
+	.container div{
+		width: 700px;
+		background-size: 700px;
+		box-sizing: 700px;
+		font-size:700;
+	} 
+}
+
+
+@media screen (max-width: 500px) {	
+	.container div{
+		width: 300px;
+		background-size: 300px;
+		box-sizing: 300px;
+		font-size:300;
+	} 
+}
+
+@media screen (max-width: 700px) {	
+	.container div{
+		width: 500px;
+		background-size: 500px;
+		box-sizing: 500px;
+		font-size:500;
+	} 
+}
